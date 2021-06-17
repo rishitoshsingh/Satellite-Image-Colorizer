@@ -33,6 +33,7 @@ matplotlib-inline==0.1.2
 networkx==2.5.1
 numpy==1.19.5
 oauthlib==3.1.1
+opencv-python==4.5.2.54
 opt-einsum==3.3.0
 parso==0.8.2
 pexpect==4.8.0
