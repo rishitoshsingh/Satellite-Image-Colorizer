@@ -49,7 +49,6 @@ while True:
         colorized_windows.append(colorized_window)
     
     colorized_frame = stich_windows(colorized_windows)
-    print(colorized_frame.shape)
     
     cv2.imshow("Input", cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY))
     cv2.imshow("Prediction", colorized_frame)
